@@ -1,0 +1,135 @@
+body {
+    background-color: #ffffff;
+}
+#menu {
+    overflow: hidden;
+    border: #cccccc;
+    border-style: ridge;
+    border-width: 3px;
+    ul {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px;
+        list-style: none;
+        line-height: normal;
+        background-color: #ffffff;
+    }
+    li {
+        display: inline-block;
+    }
+    a {
+        display: block;
+        padding: 0px 40px 0px 40px;
+        line-height: 70px;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500px;
+        color: #4aaaa5;
+    }
+    a:hover {
+        text-decoration: none;
+        color: #4aaaa5;
+        background-color: black;
+    }
+    .current_page_item a {
+        text-decoration: none;
+        color: #4aaaa5;
+        background-color: black;
+    }
+    .last {
+        border-right: none;
+    }
+}
+.text-box {
+    background-color: #ffffff;
+    display: block;
+    align-content: center;
+    border: #dddddd;
+    border-style: groove;
+    border-width: 3px;
+    color: #777777;
+    padding-left: 5px;
+    padding-right: 5px;
+    #width1 {
+        width: 600px;
+    }
+    #width2 {
+        width: 700px;
+    }
+    #font {
+        font-family: helvetica;
+    }
+}
+.img {
+    margin-left: 50px;
+    overflow: hidden;
+}
+.header1 {
+    font-family: 'Georgia';
+    text-align: center;
+    color: #4aaaa5;
+}
+.img2 {
+    margin-top: -355px;
+    margin-left: 590px;
+}
+.img3 {
+    margin-top: 10px;
+    margin-left: 700px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.img4 {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.form {
+    border: #dddddd;
+    border-style: double;
+    border-width: 5px;
+    width: 638px;
+    height: 920px;
+    margin-left: 300px;
+}
+.footer {
+    background-color: #666666;
+    width: 100%;
+    height: 70px;
+   
+}
+.grid {
+    border: #dddddd;
+    border-width: 3px;
+    border-style: groove;
+    display: grid;
+    grid-gap: 15px 15px;
+    width: 100%;
+    height: 750px;
+    grid-template-columns: 31% 31% 31%;
+    grid-template-rows: 350px 350px 350px;
+}
+.box {
+    background-color: #ffffff;
+    color: #4aaaa5;
+    border: #777777;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.dummy-img {
+    position: relative;
+}
+.sm-tb {
+    width: 338px;
+    height: 20px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-top: 317px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
